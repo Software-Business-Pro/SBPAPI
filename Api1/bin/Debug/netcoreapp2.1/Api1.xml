@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api1</name>
+    </assembly>
+    <members>
+        <member name="T:Api1.Controllers.GoodtimeController">
+            <summary>
+            Foo controller.
+            </summary>
+        </member>
+        <member name="M:Api1.Controllers.GoodtimeController.#ctor(Microsoft.Extensions.Options.IOptionsSnapshot{Api1.Configuration.ConnectionStrings},Api1.Services.IGoodtimeService,Microsoft.Extensions.Logging.ILogger{Api1.Controllers.GoodtimeController})">
+            <summary>
+            Creates new instance of <see cref="T:Api1.Controllers.GoodtimeController"/>.
+            </summary>
+            <param name="connectionStrings">
+            Instance of <see cref="T:Microsoft.Extensions.Options.IOptionsSnapshot`1"/> object that contains connection string.
+            More information: https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionssnapshot-1?view=aspnetcore-2.1
+            </param>
+            <param name="service">Instance of <see cref="T:Api1.Services.IGoodtimeService"/></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Api1.Controllers.GoodtimeController.GetAllBars">
+            <summary>
+            Tries to retrieve all Foo objects.
+            </summary>
+            <response code="200">All available Foo objects retrieved.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="T:Api1.Models.Foo">
+            <summary>
+            The Foo
+            </summary>
+        </member>
+        <member name="P:Api1.Models.Foo.CreateAd">
+            <summary>
+            Gets the creation time.
+            </summary>
+        </member>
+        <member name="P:Api1.Models.Foo.Id">
+            <summary>
+            Gets or sets unique identifier.
+            </summary>
+        </member>
+        <member name="P:Api1.Models.Foo.Value">
+            <summary>
+            Gets or sets the Foo value.
+            </summary>
+        </member>
+        <member name="P:Api1.Models.FooFile.File">
+            <summary>
+            Gets or set the file content.
+            </summary>
+        </member>
+        <member name="T:Api1.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Api1.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Api1.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Api1.Services.IGoodtimeService">
+            <summary>
+            Represents the set of methods for Foo manipulation.
+            </summary>
+        </member>
+        <member name="M:Api1.Services.IGoodtimeService.GetAllBars">
+            <summary>
+            Tries to retrieve all Bar objects.
+            </summary>
+            <returns>A collection of Bar objects (collection might be empty, but never null).</returns>
+        </member>
+        <member name="T:Api1.Startup">
+            <summary>
+            OWIN configuration and setup.
+            </summary>
+        </member>
+        <member name="M:Api1.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Initializes new instance of <see cref="T:Api1.Startup"/>
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:Api1.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api1.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>

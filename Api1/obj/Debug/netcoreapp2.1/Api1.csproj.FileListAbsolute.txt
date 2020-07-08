@@ -1,0 +1,15 @@
+D:\Esgi\Projet Annuel\Api1\Api1\bin\Debug\netcoreapp2.1\Api1.deps.json
+D:\Esgi\Projet Annuel\Api1\Api1\bin\Debug\netcoreapp2.1\Api1.runtimeconfig.json
+D:\Esgi\Projet Annuel\Api1\Api1\bin\Debug\netcoreapp2.1\Api1.runtimeconfig.dev.json
+D:\Esgi\Projet Annuel\Api1\Api1\bin\Debug\netcoreapp2.1\Api1.dll
+D:\Esgi\Projet Annuel\Api1\Api1\bin\Debug\netcoreapp2.1\Api1.pdb
+D:\Esgi\Projet Annuel\Api1\Api1\bin\Debug\netcoreapp2.1\Api1.xml
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.csprojAssemblyReference.cache
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.csproj.CoreCompileInputs.cache
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.RazorAssemblyInfo.cache
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.RazorAssemblyInfo.cs
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.AssemblyInfoInputs.cache
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.AssemblyInfo.cs
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.RazorTargetAssemblyInfo.cache
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.dll
+D:\Esgi\Projet Annuel\Api1\Api1\obj\Debug\netcoreapp2.1\Api1.pdb

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SBPWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:SBPWebApi.Controllers.SBPController">
+            <summary>
+            Foo controller.
+            </summary>
+        </member>
+        <member name="M:SBPWebApi.Controllers.SBPController.#ctor(Microsoft.Extensions.Options.IOptionsSnapshot{SBPWebApi.Configuration.ConnectionStrings},SBPWebApi.Services.ISBPService,Microsoft.Extensions.Logging.ILogger{SBPWebApi.Controllers.SBPController})">
+            <summary>
+            Creates new instance of <see cref="!:GoodtimeController"/>.
+            </summary>
+            <param name="connectionStrings">
+            Instance of <see cref="T:Microsoft.Extensions.Options.IOptionsSnapshot`1"/> object that contains connection string.
+            More information: https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptionssnapshot-1?view=aspnetcore-2.1
+            </param>
+            <param name="service">Instance of <see cref="T:SBPWebApi.Services.ISBPService"/></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:SBPWebApi.Controllers.SBPController.Get">
+            <summary>
+            Tries to retrieve all Vehicule objects.
+            </summary>
+            <response code="200">All available Vehicule objects retrieved.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:SBPWebApi.Controllers.SBPController.Get(System.String)">
+            <summary>
+            Tries to retrieve planning of specified Vehicule.
+            </summary>
+            <param name="id">Unique identifier.</param>
+            <response code="200">planning successfully retrieved.</response>
+            <response code="404">no planning for this vehicule.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:SBPWebApi.Controllers.SBPController.GetImage(System.String)">
+            <summary>
+            Tries to retrieve images of specified Vehicule.
+            </summary>
+            <param name="id">Unique identifier.</param>
+            <response code="200">images successfully retrieved.</response>
+            <response code="404">no images for this vehicule.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="M:SBPWebApi.Controllers.SBPController.Post(Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>
+            Tries to upload a new Image for a vehicule.
+            </summary>
+            <param name="item">Instance of <see cref="T:Microsoft.AspNetCore.Http.IFormFile"/>.</param>
+            <response code="200">Image uploaded.</response>
+            <response code="500">Internal server error.</response>
+        </member>
+        <member name="T:SBPWebApi.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SBPWebApi.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:SBPWebApi.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SBPWebApi.Services.ISBPService">
+            <summary>
+            Represents the set of methods for Foo manipulation.
+            </summary>
+        </member>
+        <member name="M:SBPWebApi.Services.ISBPService.GetAllVehicules">
+            <summary>
+            Tries to retrieve all Vehicule objects.
+            </summary>
+            <returns>A collection of Vehicule objects (collection might be empty, but never null).</returns>
+        </member>
+        <member name="M:SBPWebApi.Services.ISBPService.GetPlanning(System.String)">
+            <summary>
+            Tries to retrieve all plannings objects of a Vehicule.
+            </summary>
+            <returns>A collection of plannings objects (collection might be empty, but never null).</returns>
+        </member>
+        <member name="M:SBPWebApi.Services.ISBPService.GetImageLinks(System.String)">
+            <summary>
+            Tries to retrieve all image links of a Vehicule.
+            </summary>
+            <returns>A collection of plannings objects (collection might be empty, but never null).</returns>
+        </member>
+        <member name="M:SBPWebApi.Services.ISBPService.uploadImage(Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>
+            upload an image to S3 and send link in db.
+            </summary>
+        </member>
+        <member name="T:SBPWebApi.Startup">
+            <summary>
+            OWIN configuration and setup.
+            </summary>
+        </member>
+        <member name="M:SBPWebApi.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Initializes new instance of <see cref="T:SBPWebApi.Startup"/>
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:SBPWebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SBPWebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>
