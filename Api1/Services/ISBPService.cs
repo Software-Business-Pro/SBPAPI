@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using SBPWebApi.Configuration;
 using SBPWebApi.Models;
 
 namespace SBPWebApi.Services
@@ -10,7 +11,7 @@ namespace SBPWebApi.Services
     /// </summary>
     public interface ISBPService
     {
-        void SetConnectionString(string mysqlConStr);
+        void SetConnectionString(ConnectionStrings mysql);
 
 
         /// <summary>

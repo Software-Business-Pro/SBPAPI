@@ -13,3 +13,18 @@ D:\Esgi\Projet Annuel\final\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.pdb
 D:\Esgi\Projet Annuel\final\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.xml
 D:\Esgi\Projet Annuel\final\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.dll
 D:\Esgi\Projet Annuel\final\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.pdb
+D:\Esgi\spbapi\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.deps.json
+D:\Esgi\spbapi\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.runtimeconfig.json
+D:\Esgi\spbapi\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.runtimeconfig.dev.json
+D:\Esgi\spbapi\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.dll
+D:\Esgi\spbapi\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.pdb
+D:\Esgi\spbapi\Api1\bin\Debug\netcoreapp2.1\SBPWebApi.xml
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.csprojAssemblyReference.cache
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.csproj.CoreCompileInputs.cache
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.RazorAssemblyInfo.cache
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.RazorAssemblyInfo.cs
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.AssemblyInfoInputs.cache
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.AssemblyInfo.cs
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.RazorTargetAssemblyInfo.cache
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.dll
+D:\Esgi\spbapi\Api1\obj\Debug\netcoreapp2.1\SBPWebApi.pdb

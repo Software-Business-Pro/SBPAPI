@@ -14450,11 +14450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Esgi\\Projet Annuel\\final\\Api1\\SBPWebApi.csproj",
+      "projectUniqueName": "D:\\Esgi\\spbapi\\Api1\\SBPWebApi.csproj",
       "projectName": "SBPWebApi",
-      "projectPath": "D:\\Esgi\\Projet Annuel\\final\\Api1\\SBPWebApi.csproj",
+      "projectPath": "D:\\Esgi\\spbapi\\Api1\\SBPWebApi.csproj",
       "packagesPath": "C:\\Users\\Yanderu\\.nuget\\packages\\",
-      "outputPath": "D:\\Esgi\\Projet Annuel\\final\\Api1\\obj\\",
+      "outputPath": "D:\\Esgi\\spbapi\\Api1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

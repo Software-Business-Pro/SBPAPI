@@ -37,7 +37,7 @@ namespace SBPWebApi.Controllers
             _connectionStrings = connectionStrings.Value ?? throw new ArgumentNullException(nameof(connectionStrings));
             _service = service ?? throw new ArgumentNullException(nameof(service));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _service.SetConnectionString(_connectionStrings.DBLocal);
+            _service.SetConnectionString(_connectionStrings);
         }
 
         /// <summary>
