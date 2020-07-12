@@ -22,5 +22,6 @@ namespace SBPWebApi.Models
         public string MatPoids;
         public string Remarque;
         public string MatChauffeurTel;
+        public bool IsDisponible;
     }
 }

@@ -82,7 +82,8 @@ namespace SBPWebApi.Services
                             MatHauteur = reader[11].ToString(),
                             MatPoids = reader[12].ToString(),
                             Remarque = reader[13].ToString(),
-                            MatChauffeurTel = reader[14].ToString()
+                            MatChauffeurTel = reader[14].ToString(),
+                            IsDisponible = reader[15].ToString() == "1" ? true : false
                         };
                         result.Add(tmpRecord);
                     }
@@ -148,7 +149,7 @@ namespace SBPWebApi.Services
                             IdDb = reader[0].ToString(),
                             Code = reader[1].ToString(),
                             lienImage = reader[2].ToString(),
-                            DateUpload = Convert.ToDateTime(reader[3].ToString())
+                            DateUpload = Convert.ToDateTime(reader[3].ToString()).AddHours(2)
                         };
                         result.Add(tmpRecord);
                     }

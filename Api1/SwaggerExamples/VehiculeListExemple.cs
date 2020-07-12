@@ -26,7 +26,8 @@ namespace SBPWebApi.SwaggerExamples
                     MatHauteur = "400",
                     MatPoids = "12000",
                     Remarque = "",
-                    MatChauffeurTel = ""
+                    MatChauffeurTel = "",
+                    IsDisponible = false
                 },
                 new Vehicule {
                     MatRef = "P778",
@@ -43,7 +44,8 @@ namespace SBPWebApi.SwaggerExamples
                     MatHauteur = "400",
                     MatPoids = "12000",
                     Remarque = "",
-                    MatChauffeurTel = ""
+                    MatChauffeurTel = "",
+                    IsDisponible = true
                 }
             };
         }
